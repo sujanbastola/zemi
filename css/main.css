@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body,
+html {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  font-family: 'Montserrat';
+}
+
+header {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #13a6fc;
+  width: 100%;
+}
+
+header .logo {
+  margin-left: 1em;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  padding: 0;
+  margin-top: 2em;
+}
+
+header li a {
+  padding: 0.5rem;
+}
+
+.image {
+  background: url("/pictures/BATUWA.jpg") no-repeat center center fixed;
+  width: calc(100%-2em);
+  height: 90vh;
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+}
+
+.our-videos {
+  text-align: center;
+  background-color: #57f2ed;
+  margin: 0;
+  padding: 0;
+  height: 10vh;
+}
+
+.our-videos h2 {
+  padding-top: 0.8rem;
+  margin: 0;
+  color: #707070;
+  font-size: 2rem;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(87, 242, 237, 0.3);
+  padding-bottom: 2rem;
+}
+
+.container iframe {
+  margin: 1rem 0 1rem 0;
+}
+
+.container .footer {
+  color: #707070;
+  line-height: 1rem;
+}
+
+.container a {
+  text-decoration: none;
+  color: #707070;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px gray;
+  padding: 0.5rem;
+  border-radius: 35%;
+  background-color: rgba(87, 242, 237, 0.9);
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+  .logo {
+    margin-left: 2em;
+  }
+  nav {
+    margin-right: 50px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
